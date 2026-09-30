@@ -1,0 +1,24 @@
+[project]
+name = "onchain-case"
+version = "0.1.0"
+description = "Evidence-grounded on-chain incident QA, tracing-agent, and baseline evaluation toolkit"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.13.0",
+    "lxml>=5.0.0",
+    "litellm>=1.90.0",
+    "requests>=2.34.2",
+    "tenacity>=9.1.4",
+    "ipykernel>=7.3.0",
+    "pandas>=3.0.3",
+    "pymongo>=4.14.0",
+    "openpyxl>=3.1.5",
+    "tqdm>=4.67.1",
+]
+
+[project.optional-dependencies]
+baselines = [
+    "scikit-learn>=1.7.0",
+    "xgboost>=3.0.0",
+]

@@ -1,0 +1,43 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# docs for agent
+docs/
+skills/
+.agent
+.codex
+.claude
+
+# cases should not be tracked
+cases/
+summarized/
+qa/
+eval_results/
+memory/
+batch_logs/
+db_backups/
+chain_qa/
+exams/
+detector_tool/
+paper_table/exam_manager/state/
+paper_table/og_statistics/*/
+
+# Temp dev files
+example.html
+cases.md
+batch_run_report.md
+dev_logs/
+tmp/
+tmp*/
+**/.test.jsonl.*
+
+published_data/*
+!published_data/.gitkeep
